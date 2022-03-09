@@ -21,16 +21,24 @@ class MyDrawer extends StatelessWidget {
                   currentAccountPicture: Image.asset("assets/images/user.png"),
                 )),
             const ListTile(
-              leading: Icon(CupertinoIcons.home),
+              leading: Icon(
+                CupertinoIcons.home,
+                color: Colors.white,
+              ),
               title: Text(
                 "Home",
+                style: TextStyle(color: Colors.white),
                 textScaleFactor: 1.2,
               ),
             ),
             const ListTile(
-              leading: Icon(CupertinoIcons.profile_circled),
+              leading: Icon(
+                CupertinoIcons.profile_circled,
+                color: Colors.white,
+              ),
               title: Text(
                 "Profile",
+                style: TextStyle(color: Colors.white),
                 textScaleFactor: 1.2,
               ),
             )
