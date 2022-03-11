@@ -1,16 +1,17 @@
 import 'dart:convert';
 
 class CatalogModel {
-  static List<Item> items = [
-    Item(
-        id: 1,
-        name: "iPhone 12 Pro",
-        desc: "Apple iphone 12th generation",
-        price: 999,
-        color: "#33505a",
-        image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxlbeRxSjA-eIn_bBJ5XlzdfTVZwdnY9t4up9HzmNy6BIFFsg6PLTf26aOTdBY88O9pg&usqp=CAU")
-  ];
+  static List<Item> items = [];
+  /*[
+    // Item(
+    //     id: 1,
+    //     name: "iPhone 12 Pro",
+    //     desc: "Apple iphone 12th generation",
+    //     price: 999,
+    //     color: "#33505a",
+    //     image:
+    //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxlbeRxSjA-eIn_bBJ5XlzdfTVZwdnY9t4up9HzmNy6BIFFsg6PLTf26aOTdBY88O9pg&usqp=CAU")
+  ];*/
 }
 
 class Item {
