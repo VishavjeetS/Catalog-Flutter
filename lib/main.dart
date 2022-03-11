@@ -5,10 +5,12 @@ import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/themes.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,8 +19,8 @@ class MyApp extends StatelessWidget {
       darkTheme: MyTheme.darkTheme(context),
       initialRoute: MyRoutes.homeRoute,
       routes: {
-        MyRoutes.homeRoute: (context) => Homepage(),
-        MyRoutes.loginRoute: (context) => LoginPage()
+        MyRoutes.homeRoute: (context) => const Homepage(),
+        MyRoutes.loginRoute: (context) => const LoginPage()
       },
     );
   }
