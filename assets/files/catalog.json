@@ -5,7 +5,7 @@
             "name": "iphone 12 Pro",
             "desc": "Apple iphone 12th generation",
             "price": 999,
-            "color": "#33505a",
+            "color": "#0xfff5f5f5",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxlbeRxSjA-eIn_bBJ5XlzdfTVZwdnY9t4up9HzmNy6BIFFsg6PLTf26aOTdBY88O9pg&usqp=CAU"
         },
         {
@@ -13,7 +13,7 @@
             "name": "iphone 11 Pro",
             "desc": "Apple iphone 11th generation",
             "price": 699,
-            "color": "#00ac51",
+            "color": "#0xfff5f5f5",
             "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0H2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1567304952459"
         },
         {
@@ -21,7 +21,7 @@
             "name": "iphone X",
             "desc": "Apple iphone 10th generation",
             "price": 599,
-            "color": "#33505a",
+            "color": "#0xfff5f5f5",
             "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-x-new-1.jpg"
         },
         {
@@ -29,7 +29,7 @@
             "name": "iphone 8",
             "desc": "Apple iphone 8th generation",
             "price": 499,
-            "color": "#33505a",
+            "color": "#0xfff5f5f5",
             "image": "https://www.apple.com/newsroom/images/product/iphone/standard/8plus_and_8_glass_back_big.jpg.large.jpg"
         },
         {
@@ -37,7 +37,7 @@
             "name": "Samsung Galaxy S21",
             "desc": "Samsung Galaxy S Series",
             "price": 799,
-            "color": "#33505a",
+            "color": "#0xfff5f5f5",
             "image": "https://m.media-amazon.com/images/I/512Va+-kCJL._AC_SX466_.jpg"
         },
         {
@@ -45,7 +45,7 @@
             "name": "Samsung Galaxy S22",
             "desc": "Samsung Galaxy S Series",
             "price": 899,
-            "color": "#33505a",
+            "color": "#0xfff5f5f5",
             "image": "https://m.media-amazon.com/images/I/71PvHfU+pwL._SL1500_.jpg"
         },
         {
@@ -53,7 +53,7 @@
             "name": "Samsung Galaxy S21 Ultra",
             "desc": "Samsung Galaxy S Series",
             "price": 999,
-            "color": "#33505a",
+            "color": "#0xfff5f5f5",
             "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s21-ultra-5g-1.jpg"
         },
         {
@@ -61,7 +61,7 @@
             "name": "Google Pixel 6",
             "desc": "Google Pixel Series",
             "price": 999,
-            "color": "#33505a",
+            "color": "#0xfff5f5f5",
             "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s21-ultra-5g-1.jpg"
         }
     ]
