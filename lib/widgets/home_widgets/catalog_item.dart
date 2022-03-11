@@ -24,7 +24,7 @@ class CatalogItem extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              catalog.name.text.lg.bold.make(),
+              catalog.name.text.lg.color(context.accentColor).bold.make(),
               // catalog.desc.text.make(),
               Text(catalog.desc,
                   textAlign: TextAlign.start,
@@ -41,8 +41,8 @@ class CatalogItem extends StatelessWidget {
                     onPressed: () {},
                     child: "Add to cart".text.sm.make(),
                     style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(MyTheme.darkBuishColor),
+                        backgroundColor: MaterialStateProperty.all(
+                            context.theme.buttonColor),
                         shape:
                             MaterialStateProperty.all(const StadiumBorder())),
                   ).w(101)
@@ -52,6 +52,6 @@ class CatalogItem extends StatelessWidget {
           ),
         ))
       ],
-    )).white.roundedLg.square(130).px16.make().py16();
+    )).color(context.cardColor).roundedLg.square(130).px16.make().py16();
   }
 }
