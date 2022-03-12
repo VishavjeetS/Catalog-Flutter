@@ -11,29 +11,34 @@ class MyTheme {
         accentColor: darkBuishColor,
         fontFamily: GoogleFonts.poppins().fontFamily,
         appBarTheme: AppBarTheme(
-            color: Colors.white,
-            elevation: 0.0,
-            iconTheme: const IconThemeData(color: Colors.black),
-            toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
-            titleTextStyle: Theme.of(context).textTheme.headline6),
+          color: Colors.white,
+          elevation: 0.0,
+          iconTheme: const IconThemeData(color: Colors.black),
+          textTheme: Theme.of(context).textTheme,
+          // toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
+          // titleTextStyle: Theme.of(context).textTheme.headline6
+        ),
         // primaryTextTheme: GoogleFonts.latoTextTheme()
       );
 
   static ThemeData darkTheme(BuildContext context) => ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.deepPurple,
-        cardColor: Colors.black,
-        canvasColor: darkCreamColor,
-        fontFamily: GoogleFonts.poppins().fontFamily,
-        accentColor: Colors.white,
-        buttonColor: lightBuishColor,
-        appBarTheme: AppBarTheme(
-            color: Colors.black,
-            elevation: 0.0,
-            iconTheme: const IconThemeData(color: Colors.white),
-            toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
-            titleTextStyle: Theme.of(context).textTheme.headline6),
-      );
+      brightness: Brightness.dark,
+      primarySwatch: Colors.deepPurple,
+      cardColor: Colors.black,
+      canvasColor: darkCreamColor,
+      fontFamily: GoogleFonts.poppins().fontFamily,
+      accentColor: Colors.white,
+      buttonColor: lightBuishColor,
+      appBarTheme: AppBarTheme(
+        color: Colors.black,
+        elevation: 0.0,
+        iconTheme: const IconThemeData(color: Colors.white),
+        textTheme: Theme.of(context).textTheme.copyWith(
+            headline6:
+                context.textTheme.headline6?.copyWith(color: Colors.white)),
+        // toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
+        // titleTextStyle: Theme.of(context).textTheme.headline6
+      ));
 
   //colors
   static Color creamColor = const Color(0xfff5f5f5);
