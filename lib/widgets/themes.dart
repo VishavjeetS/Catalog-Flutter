@@ -11,13 +11,12 @@ class MyTheme {
         accentColor: darkBuishColor,
         fontFamily: GoogleFonts.poppins().fontFamily,
         appBarTheme: AppBarTheme(
-          color: Colors.white,
-          elevation: 0.0,
-          iconTheme: const IconThemeData(color: Colors.black),
-          textTheme: Theme.of(context).textTheme,
-          // toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
-          // titleTextStyle: Theme.of(context).textTheme.headline6
-        ),
+            color: Colors.white,
+            elevation: 0.0,
+            iconTheme: const IconThemeData(color: Colors.black),
+            textTheme: Theme.of(context).textTheme,
+            toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
+            titleTextStyle: Theme.of(context).textTheme.headline6),
         // primaryTextTheme: GoogleFonts.latoTextTheme()
       );
 
